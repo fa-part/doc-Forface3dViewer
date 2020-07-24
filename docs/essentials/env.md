@@ -18,7 +18,39 @@
 
 <img src="./img/app.png">
 
-有了`AppId`及`SecretKey`后，您就可以进行您的Forface 3D Viewer二次开发了
+有了`AppId`及`SecretKey`后，您就可以愉快地进行Forface 3D Viewer二次开发了
 
 ## 开发环境
 
+#### ES5(Javascript)下开发
+
+只需在html页面的`<head>`中引入`Forface 3D Viewer`的Javascript库即可立即开始二次开发
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Forface Test Demo- Example</title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <link href="http://www.fa-part.com/forface-libs/forface3dViewer-lib/style.css" rel="stylesheet" />
+        <script src="http://www.fa-part.com/forface-libs/forface3dViewer-lib/viewer3D.min.js"></script>
+	</head>
+	<body style="margin: 0">
+        <div id="forface-div" style="width:100%; height: 100vh;"></div>
+	</body>
+</html>
+```
+
+> 注意：为确保您的`Forface 3D Viewer` JS库是最新版本，建议您直接引用我们官方提供的Js库资源路径。
+
+#### Forface Javascript Lib 唯一官方资源路径
+
+使用`Forface 3D Viewer`必须引用两条资源，如下所示。为提升页面响应速度`<script>`资源可放在`<body>`标签内。
+
+```html
+<link href="http://www.fa-part.com/forface-libs/forface3dViewer-lib/style.css" rel="stylesheet" />
+<script src="http://www.fa-part.com/forface-libs/forface3dViewer-lib/viewer3D.min.js"></script>
+```
+
+>注意：如需要离线部署您的项目，可联系我司单独提供解决方案

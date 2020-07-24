@@ -4,4 +4,4 @@
     * [Fast 3D Viewer 手册]()
 
 * 更多
-    * [基础](/javascript/base.md)
+    * [联系我们](/README.md)
