@@ -4,7 +4,7 @@
 
 - 本文档作为Forface 3D Viewer的初学入门手册，帮助Forface开发者快速学会如何使用Forface 3D Viewer搭建自己的Web端3D模型展示应用
 
-[![stars](https://badgen.net/github/stars/Q-Angelo/Nodejs-Roadmap?icon=github&color=4ab8a1)](https://github.com/fa-part/doc-Forface3dViewer) [![forks](https://badgen.net/github/forks/Q-Angelo/Nodejs-Roadmap?icon=github&color=4ab8a1)](https://github.com/fa-part/doc-Forface3dViewer)
+<!-- [![stars](https://badgen.net/github/stars/Q-Angelo/Nodejs-Roadmap?icon=github&color=4ab8a1)](https://github.com/fa-part/doc-Forface3dViewer) [![forks](https://badgen.net/github/forks/Q-Angelo/Nodejs-Roadmap?icon=github&color=4ab8a1)](https://github.com/fa-part/doc-Forface3dViewer) -->
 
-[GitHub](<https://github.com/fa-part>)
+[返回官网](<https://wwww.fa-part.com>)
 [快速入门](./essentials/introduction)
