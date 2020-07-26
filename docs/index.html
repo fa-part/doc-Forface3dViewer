@@ -16,9 +16,17 @@
       loadNavbar: true,
       loadSidebar: true,
       name: 'Forface 开发手册',
-      repo: 'https://github.com/fa-part/doc-Forface3dViewer.git'
+      repo: 'https://github.com/fa-part/doc-Forface3dViewer.git',
+      search: {
+            paths: 'auto',
+            placeholder: '搜索',
+            noData: 'No Results! ',
+            // Headline depth, 1 - 6
+            depth: 6
+        },//增加搜索框
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>

@@ -83,3 +83,11 @@ Forface3dViewer.Init('forface-container-div', {
 	</body>
 </html>
 ```
+
+如一切正常，在浏览器访问该页面可看到如下下过！恭喜您，成功开发出自己的`第一个3D Demo应用`
+
+<img src="./img/3d-demo.png">
+
+> 注意：上面的页面需要`以web服务的形式访问`方可正常浏览。直接在本地以本地文件的形式`双击是无法正常浏览的`
+
+> 快速搭建一个web服务可使用[nginx快速搭建前端web服务](./faq/webserver)，也可使用[node.js快速搭建前端web服务](./faq/webserver)
