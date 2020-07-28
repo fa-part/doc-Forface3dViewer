@@ -33,8 +33,8 @@
 		<title>Forface Test Demo- Example</title>
 		<meta charset="utf-8">
         <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-        <link href="http://www.fa-part.com/forface-libs/forface3dViewer-lib/style.css" rel="stylesheet" />
-        <script src="http://www.fa-part.com/forface-libs/forface3dViewer-lib/viewer3D.min.js"></script>
+        <link href="http://www.fa-part.com/forface-libs/forface3dViewer-lib/last/style.css" rel="stylesheet" />
+        <script src="http://www.fa-part.com/forface-libs/forface3dViewer-lib/last/viewer3D.min.js"></script>
 	</head>
 	<body style="margin: 0">
         <div id="forface-div" style="width:100%; height: 100vh;"></div>
@@ -49,8 +49,8 @@
 使用`Forface 3D Viewer`必须引用两条资源，如下所示。为提升页面响应速度`<script>`资源可放在`<body>`标签内。
 
 ```html
-<link href="https://www.fa-part.com/forface-libs/forface3dViewer/style.css" rel="stylesheet" />
-<script src="https://www.fa-part.com/forface-libs/forface3dViewer/viewer3D.min.js"></script>
+<link href="https://www.fa-part.com/forface-libs/forface3dViewer/last/style.css" rel="stylesheet" />
+<script src="https://www.fa-part.com/forface-libs/forface3dViewer/last/viewer3D.min.js"></script>
 ```
 
 >注意：如需要离线部署您的项目，可联系我司单独提供解决方案

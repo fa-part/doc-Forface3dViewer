@@ -9,8 +9,8 @@
 Forface唯一官方指定的资源路径URL如下：
 
 ```html
-<link href="https://www.fa-part.com/forface-libs/forface3dViewer/style.css" rel="stylesheet" />
-<script src="https://www.fa-part.com/forface-libs/forface3dViewer/viewer3D.min.js"></script>
+<link href="https://www.fa-part.com/forface-libs/forface3dViewer/last/style.css" rel="stylesheet" />
+<script src="https://www.fa-part.com/forface-libs/forface3dViewer/last/viewer3D.min.js"></script>
 ```
 
 > 为方便开发者快速入门，建议初学者使用如上两条官方提供的URL资源。如您需要本地化部署，请联系我们 0755-21004731
@@ -64,11 +64,11 @@ Forface3dViewer.Init('forface-container-div', {
 		<title>Forface 3D Viewer - Example</title>
 		<meta charset="utf-8">
         <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-        <link href="https://www.fa-part.com/forface-libs/forface3dViewer/style.css" rel="stylesheet" />
+        <link href="https://www.fa-part.com/forface-libs/forface3dViewer/last/style.css" rel="stylesheet" />
 	</head>
 	<body style="margin: 0">
         <div id="forface-container-div" style="width:100%; height: 100vh;"></div>
-        <script src="https://www.fa-part.com/forface-libs/forface3dViewer/viewer3D.min.js"></script>
+        <script src="https://www.fa-part.com/forface-libs/forface3dViewer/last/viewer3D.min.js"></script>
         <script>
         // 初始化
         Forface3dViewer.Init('forface-container-div', {
